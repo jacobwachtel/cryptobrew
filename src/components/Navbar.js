@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Navbar.css';
+import brewLogo from '../assets/cb-logo.png';
 
 const Navbar = () => {
   return (
     <nav className='navbar-container'>
         <div className='navbar-logo'>
-            <img src='https://www.freepnglogos.com/uploads/logo-png/logo-png-transparent-background-5.png' alt='logo'/>
+            <img src={brewLogo} alt='logo'/>
         </div>
         <div className='navbar-links'>
             <a href='#'>About</a>
