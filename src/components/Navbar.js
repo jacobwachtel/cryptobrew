@@ -8,16 +8,18 @@ const Navbar = () => {
         <div className='navbar-logo'>
             <img src={brewLogo} alt='logo'/>
         </div>
-        <div className='navbar-links'>
-            <a href='#'>About</a>
+        <div className='navbar-navigation'>
+          <div className='navbar-links'>
+            <a href='#'>Services</a>
             <a href='#'>About</a>
             <a href='#'>Contact</a>
-
-            <div className='navbar-login'>
-                <a href='#'>Login</a>
-                <a href='#'>Signup</a>
-            </div>
+          </div>
+          <div className='navbar-login'>
+            <a className='navbar-login__btn' href='#'>Login</a>
+            <a className='navbar-signup__btn' href='#'>Signup</a>
+          </div>
         </div>
+        
     </nav>
   )
 }

@@ -1,8 +1,70 @@
 .navbar-container {
-    /* background-color: #fff; */
-    border-bottom: 1px solid #e5e5e5;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-    -webkit-transition: box-shadow 0.3s;
-    transition: box-shadow 0.3s;
     color: #eee;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.navbar-logo {
+    margin: .8rem;
+    justify-self: flex-start;
+}
+
+.navbar-logo img{
+    width: 8rem;
+}
+
+.navbar-navigation {
+    flex: 1;
+    /* width: 100%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.navbar-links {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-links a {
+    margin-right: 3.5rem;
+}
+
+.navbar-login {
+    font-size: 1.8rem;
+    margin-right: 4rem;
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-login a {
+    margin-right: 3rem;
+}
+
+.navbar-login__btn {
+    border: 2px solid rgb(37, 65, 126);
+    border-radius: 2.5rem;
+    padding: .8rem 2.5rem;
+    /* border-image: linear-gradient(90deg, rgb(18, 42, 95), rgb(56, 89, 160))1; */
+    border-radius: 2.5rem;
+}
+
+.navbar-signup__btn {
+    padding: 1rem 0rem;
+    font-size: 1.4rem;
+    text-decoration: underline;
 }
