@@ -12,7 +12,7 @@ const HeroSection = () => {
             <h2 className='heading-secondary'>We harness the power of Crypto to get your business off the ground.</h2>
         </div>
         <div className='hero-image'>
-            <img src={breweryHero} alt='hero-image'/>
+            <img src={heroImage} alt='hero-image'/>
         </div>
     </div>
   )
