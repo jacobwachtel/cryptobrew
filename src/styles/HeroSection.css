@@ -1,0 +1,48 @@
+.hero-container {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 50%;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-primary {
+    width: 75%;
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.heading-secondary {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.hero-image {
+   padding-left: 2rem;
+   padding-right: 4rem;
+   
+    
+}
+
+.hero-image img {
+    width: 40rem;
+    /* border-bottom-left-radius: 40%; */
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 35%;
+}
