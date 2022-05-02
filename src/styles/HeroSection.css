@@ -3,22 +3,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .hero-text {
     width: 50%;
-    /* height: 100%; */
     text-align: center;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading-primary {
     width: 75%;
-    margin: 0 auto;
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-weight: 700;
     margin-bottom: 5rem;
-    /* text-transform: uppercase; */
 }
 
 .heading-secondary {
@@ -29,20 +31,18 @@
     margin: 0 auto;
     text-align: left;
     line-height: 1.5;
-    /* display: flex;
-    align-self: center;
-    justify-self: center; */
 }
 
 .hero-image {
-    width: 50%;
-    padding-left: 5rem;
+   padding-left: 2rem;
+   padding-right: 4rem;
+   
     
 }
 
 .hero-image img {
-    width: 65%;
-    border-bottom-left-radius: 40%;
+    width: 40rem;
+    /* border-bottom-left-radius: 40%; */
     border-bottom-right-radius: 40%;
     border-top-left-radius: 35%;
 }

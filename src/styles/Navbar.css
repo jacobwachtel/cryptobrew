@@ -7,12 +7,12 @@
 }
 
 .navbar-logo {
-    margin: .8rem;
+    margin: 1rem 2rem;
     justify-self: flex-start;
 }
 
 .navbar-logo img{
-    width: 7rem;
+    width: 8rem;
 }
 
 .navbar-navigation {

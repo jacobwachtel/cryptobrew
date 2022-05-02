@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/HeroSection.css';
 import heroImage from '../assets/hero-image-abstract.jpg'
+import heroImage2 from '../assets/hero-image-beer.jpg'
+import breweryHero from '../assets/brewery_heroImage.jpg'
 
 const HeroSection = () => {
   return (
@@ -10,7 +12,7 @@ const HeroSection = () => {
             <h2 className='heading-secondary'>We harness the power of Crypto to get your business off the ground.</h2>
         </div>
         <div className='hero-image'>
-            <img src={heroImage} alt='hero-image'/>
+            <img src={breweryHero} alt='hero-image'/>
         </div>
     </div>
   )
