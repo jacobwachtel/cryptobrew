@@ -35,14 +35,13 @@
 
 .hero-image {
    padding-left: 2rem;
-   padding-right: 4rem;
-   
-    
+   padding-right: 6rem;
 }
 
 .hero-image img {
     width: 40rem;
-    /* border-bottom-left-radius: 40%; */
-    border-bottom-right-radius: 40%;
-    border-top-left-radius: 35%;
+    height: 42rem;
+    border-bottom-left-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
+    border-top-right-radius: 35%;
 }

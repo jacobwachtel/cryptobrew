@@ -1,22 +1,22 @@
-import React from 'react'
-import '../styles/Footer.css'
-import fb from '../assets/images/facebook.png'
+import React from 'react';
+import fb from '../assets/images/facebook.png';
+import insta from '../assets/images/instagram.png';
+import twit from '../assets/images/twitter.png';
 
 const Footer = () => {
   return (    
-    <div className='footer'>        
-        <div className='footercontent'>
-            <div className='footerTitle'>
-                <img className = 'ticketIcon' src = 'https://th.bing.com/th/id/R.376d5eb97e12141142e1b2eceeac7c5b?rik=gOOTjBC7wsgACQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fticket-clipart-transparent%2fticket-clipart-transparent-9.png&ehk=2acrXCfUVQO76QJMLvl64%2fJtgNmSrXR6AGSPZVmJcic%3d&risl=&pid=ImgRaw&r=0' alt = ''></img>
+    <div className='h-96 border-t border-gray-50 border-opacity-30'>        
+        <div className='pt-8 flex flex-col items-center justify-center'>
+            <div className='mb-4 text-3xl'>
                 <h1>NFTickets</h1>
             </div>
-            <div className='copyright'>
-                 <p className='copyrightText'>© 2022 NFTickets Inc. All rights reserved.</p>
+            <div className='mb-8 color-white'>
+                 <p className=''>© 2022 NFTickets Inc. All rights reserved.</p>
             </div>
-            <div className='socials'>
-                <img className='Icon' src={fb} alt = 'fb'></img>
-                <img className='Icon' src='../images/instagram.png' alt = 'insta'></img>
-                <img className='Icon' src='../images/facebook.png' alt = 'twit'></img>
+            <div className='text-sm flex'>
+                <img className='w-16 mr-8' src={fb} alt = 'fb'></img>
+                <img className='w-16 mr-8' src={insta} alt='insta'></img>
+                <img className='w-16' src={twit} alt='twit'></img>
             </div>
         </div>
     </div>

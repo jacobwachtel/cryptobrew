@@ -3,22 +3,24 @@ import './App.css';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import BenefitsSection from './components/BenefitsSection';
+import NFTCarousel from './components/NFTCarousel';
+import About from './components/About';
+import Expectations from './components/Expectations';
+import ContactForm from './components/ContactForm';
 
 function App() {
-
-  const [fetchData, setFetchData] = useState([])
-
-  useEffect(() => {
-    
-    const promise = fetch('https://app.ticketmaster.com/discovery/v2/events.json?apikey=GLw2dczAO5CJ8BJySPpF4Bh084jSTQHl')
-    promise.then((response) => response.json()).then(data => data)
-    console.log(fetchData);
-  },[])
+  
 
   return (
     <div className="App">
       <Navbar />
       <HeroSection />
+      <BenefitsSection />
+      <NFTCarousel />
+      <About />
+      <Expectations />
+      <ContactForm />
       <Footer />
       APP
     </div>
