@@ -8,12 +8,12 @@
 
 .hero-text {
     width: 50%;
-    text-align: center;
+    text-align: left;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .heading-primary {
@@ -24,24 +24,38 @@
 }
 
 .heading-secondary {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 2.2rem;
+    font-weight: 500;
     margin-bottom: 2rem;
-    width: 60%;
     margin: 0 auto;
     text-align: left;
     line-height: 1.5;
 }
 
 .hero-image {
+   height: 100%;
    padding-left: 2rem;
    padding-right: 6rem;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.circle {
+    width: 40rem;
+    height: 40rem;
+    border: 1px solid rgb(161, 134, 134);
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: -15%;
+    z-index: -1;
 }
 
 .hero-image img {
     width: 40rem;
     height: 42rem;
-    border-bottom-left-radius: 40%;
-    /* border-bottom-right-radius: 40%; */
-    border-top-right-radius: 35%;
+    border-radius: 50%;
+
 }

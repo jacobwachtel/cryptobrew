@@ -5,7 +5,7 @@ import twit from '../assets/images/twitter.png';
 
 const Footer = () => {
   return (    
-    <div className='h-96 border-t border-gray-50 border-opacity-30'>        
+    <div className='h-92 border-t border-gray-50 border-opacity-30'>        
         <div className='pt-8 flex flex-col items-center justify-center'>
             <div className='mb-4 text-3xl'>
                 <h1>NFTickets</h1>

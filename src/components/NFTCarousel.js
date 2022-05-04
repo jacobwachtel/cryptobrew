@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import NFT from './NFT';
 
 const NFTCarousel = () => {
   return (
-    <div className='h-96 flex items-center justify-center text-5xl'>NFTCarousel</div>
+    <>
+    NFT Carousel
+      <div className='h-80 flex items-center justify-center text-5xl'>
+      
+        <NFT />
+        <NFT />
+        <NFT />
+      </div>
+    </>
   )
 }
 
