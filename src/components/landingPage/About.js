@@ -1,5 +1,5 @@
 import React from 'react'
-import businessOpen from '../assets/business-open.jpg'
+import businessOpen from '../../assets/business-open.jpg'
 
 const About = () => {
   return (

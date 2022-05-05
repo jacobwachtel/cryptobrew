@@ -1,6 +1,6 @@
 import React from 'react';
 // import '../styles/Navbar.css';
-import brewLogo from '../assets/crypto_brew_logo.png';
+import brewLogo from '../../assets/crypto_brew_logo.png';
 
 const Navbar = () => {
   return (

@@ -4,6 +4,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ["Roboto", 'sans-serif'],
+      heading: ["Poppins', 'sans-serif'"],
+    }
   },
   plugins: [],
 }

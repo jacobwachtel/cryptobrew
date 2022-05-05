@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/HeroSection.css';
-import heroImage from '../assets/hero-image-abstract.jpg'
-import heroImage2 from '../assets/hero-image-beer.jpg'
-import breweryHero from '../assets/brewery_heroImage.jpg'
+import '../../styles/HeroSection.css';
+import heroImage from '../../assets/hero-image-abstract.jpg'
+import heroImage2 from '../../assets/hero-image-beer.jpg'
+import breweryHero from '../../assets/brewery_heroImage.jpg'
 
 const HeroSection = () => {
   return (
