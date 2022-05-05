@@ -5,7 +5,7 @@ const NFTCarousel = () => {
   return (
     <>
     NFT Carousel
-      <div className='h-80 flex items-center justify-center text-5xl'>
+      <div className='py-48 flex items-center justify-center text-5xl'>
       
         <NFT />
         <NFT />

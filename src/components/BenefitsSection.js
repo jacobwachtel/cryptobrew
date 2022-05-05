@@ -2,8 +2,8 @@ import React from 'react'
 
 const BenefitsSection = () => {
   return (
-    <section className='h-screen flex flex-col items-center justify-center'>
-      <div className='mx-auto container flex  items-center justify-center text-center'>
+    <section className='flex flex-col items-center justify-center'>
+      <div className='mx-auto container mt-24 flex  items-center justify-center text-center'>
         <div className='container flex flex-col items-center justify-center'>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mb-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -27,8 +27,8 @@ const BenefitsSection = () => {
           </h2>
         </div>
       </div>
-      <div className='text-3xl mt-40'>
-        <a href='#' className='transition ease-in-out delay-250 bg-gradient-to-r from-purple-500 to-blue-600 hover:from-purple-500 hover:to-purple-500 hover:-translate-y-1 hover:scale-110 text-white font-bold px-10 py-3 mt-24 rounded-3xl duration-300'>Work with us</a>
+      <div className='text-3xl my-40 pb-24'>
+        <a href='#' className='transition ease-in-out delay-250 bg-gradient-to-r from-purple-500 to-blue-600 hover:from-purple-500 hover:to-purple-500 hover:-translate-y-1 hover:scale-110 text-white font-bold px-12 py-5 mt-24 rounded-3xl duration-400'>Work with us</a>
       </div>
     </section>
   )

@@ -5,8 +5,8 @@ import brewLogo from '../assets/crypto_brew_logo.png';
 const Navbar = () => {
   return (
     <nav className='text-white flex items-center w-full h-44'>
-        <div className='mx-10'>
-            <img src={brewLogo} alt='logo' className='w-32'/>
+        <div className='mx-10 '>
+            <img src={brewLogo} alt='logo' className='w-36 rounded-full'/>
         </div>
         <div className='flex-auto flex justify-end'>
           <div className='ml-8 mr-32 text-3xl flex-1 flex justify-end'>
